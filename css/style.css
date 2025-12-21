@@ -565,7 +565,7 @@ a {
   }
 
   .process-image img {
-    width: 380px;
+    width: 340px;
     height: auto;
   }
 
@@ -575,10 +575,14 @@ a {
 
   .profile-grid {
     grid-template-columns: 1fr;
-    gap: 48px;
   }
 
   .profile-text p {
-    font-size: 15px;
+    font-size: 12px;
+  }
+
+  .profile-image img {
+    width: 340px;
+    height: auto;
   }
 }
