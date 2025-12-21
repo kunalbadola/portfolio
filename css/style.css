@@ -448,7 +448,7 @@ a {
 }
 
 .case-content {
-  padding-bottom: 160px;
+  padding-bottom: 120px;
 }
 
 .case-image img {
@@ -479,19 +479,32 @@ a {
   display: block;
 }
 
-/* Mobile */
+/* MOBILE CASE STUDY SPACING FIX */
+
 @media (max-width: 768px) {
-  .case-intro {
-    padding: 120px 0 80px;
+
+  .case-content > * {
+    margin: 0;
+    padding: 0;
   }
 
-  .case-image-grid {
-    grid-template-columns: 1fr;
-    padding: 48px 24px;
+  .case-image,
+  .case-image-grid,
+  .case-text {
+    margin-bottom: 48px;
   }
 
   .case-text {
-    padding: 48px 0;
+    padding: 0 24px;
+  }
+
+  .case-text p {
+    margin-bottom: 16px;
+  }
+
+  .case-image-grid {
+    padding: 0 24px;
+    gap: 0px;
   }
 }
 
