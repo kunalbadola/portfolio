@@ -135,7 +135,7 @@ a {
 
 .footer-inner {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 64px;
 }
 
@@ -384,50 +384,6 @@ a {
 
 .footer {
   padding: 80px 0 64px;
-}
-
-/* NEWSLETTER PAGE */
-
-.newsletter-intro {
-  padding: 160px 0;
-}
-
-.newsletter-grid {
-  max-width: 720px;
-}
-
-.newsletter-lead {
-  font-size: 20px;
-  line-height: 1.6;
-  margin-bottom: 32px;
-}
-
-.newsletter-text p {
-  font-size: 14px;
-  line-height: 1.7;
-  opacity: 0.8;
-  margin-bottom: 20px;
-}
-
-.newsletter-actions {
-  margin-top: 40px;
-  display: flex;
-  gap: 16px;
-}
-
-@media (max-width: 768px) {
-  .newsletter-intro {
-    padding: 120px 0;
-  }
-
-  .newsletter-lead {
-    font-size: 16px;
-  }
-
-  .newsletter-actions {
-    flex-direction: column;
-    align-items: flex-start;
-  }
 }
 
 /* CASE STUDY PAGE */
